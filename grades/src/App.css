@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.inputCriteria {
+  font-weight: bold;
+}
+
+.headerAssignment {
+  font-weight: bold;
+  padding-left: 160px;
+  padding-right: 90px
+}
+
+.headerItem {
+  font-weight: bold;
+  padding-right: 128px;
+}
+
+.delete {
+  padding-left: 53px;
+  padding-right: 65px;
+}
+
+.add {
+  padding-right: 15px;
+}
+
+.item {
+  padding-right: 100px;
+}
+
+.headitem {
+  padding-right: 200px;
+  text-align: right;
+}
+
+.headitemassignment {
+  padding-right: 125px;
+}
+
+.warning {
+  color:red;
+}
+
+.gradeSent {
+  color:green;
+}
+
+.send {
+  color:red;
+  padding-left: 160px;
+}
+
+.sendButton {
+  padding-right: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
