@@ -1,0 +1,3 @@
+React apps require node modules with
+npm install --save react
+in app root folder
